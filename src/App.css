@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.ShipTital {
+  position: absolute;
+  align-content: center;
+}
+
+.Shipcard {
+  margin: 2rem 2rem 2rem 0;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 0 25px 4px black;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  background-color: rgb(173, 205, 219);
+  margin-top: 100px;
+}
+
+.Shipcard:hover {
+  transform: scale(1.1);
+}
+
+:root {
+  background-color: rgb(194, 223, 246);
+}
