@@ -20,9 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 className="ShipTital">
-        ==================== STAR WAR STAR SHIPS ====================
-      </h1>
+      <h1 className="ShipTitle">STAR WAR STAR SHIPS</h1>
 
       <GetAllStarships data={data} />
     </div>

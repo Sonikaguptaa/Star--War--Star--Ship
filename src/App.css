@@ -3,9 +3,9 @@
   flex-wrap: wrap;
   text-align: center;
 }
-.ShipTital {
-  position: absolute;
-  align-content: center;
+.ShipTitle {
+  text-align: center;
+  width: 100%;
 }
 
 .Shipcard {
@@ -16,7 +16,7 @@
   transition: transform 0.3s ease;
   cursor: pointer;
   background-color: rgb(173, 205, 219);
-  margin-top: 100px;
+  margin-left: auto;
 }
 
 .Shipcard:hover {
